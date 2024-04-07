@@ -5,6 +5,25 @@ html {
 nav {
     display: block;
 }
+.transcript {
+    width: 700px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 12%;
+    font-size: 16px;
+    color: #000000;
+    display: inline-block;
+    position: fixed;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 2px solid #f0f0f0;
+    cursor: pointer;
+    overflow-y: auto;
+}
 .recordsidesec {
     top: 60%;
 }
@@ -12,12 +31,15 @@ nav {
     color: cornflowerblue;
     padding: 10px 25px;
     margin-top: 20px;
+    margin-left: 70px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
     background-color: transparent;
     border: 2px solid cornflowerblue;
     display: inline-block;
+    text-align: center;
+    position: fixed;
 }
 .recorder:hover {
     transition-duration: 0.2s;
