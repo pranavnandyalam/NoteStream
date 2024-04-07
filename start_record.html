@@ -10,20 +10,23 @@
     <script src="script.js"></script>
     <div>
         <nav class="sidenav">
-        <a href = "start_record.html" class="fa-solid fa-microphone record-button"><span class="font"> Record</span></a>
-        <a href="#" class = "fa-solid fa-clipboard"><span class="font"> Session History</span></a>
-        <a href="#" class="fa-solid fa-gear"><span class="font"> User Settings</span></a>
-        <a href="#" class="fa-solid fa-pen-to-square"><span class="font"> Edit Transcript</span></a>
-        <a href="#" class="fa-solid fa-search"><span class="font"> Search</span></a>
-    </nav>
+            <a href="start_record.html" class="fa-solid fa-microphone record-button"><span class="font"> Record</span></a>
+            <a href="#" class="fa-solid fa-clipboard"><span class="font"> Session History</span></a>
+            <a href="#" class="fa-solid fa-gear"><span class="font"> User Settings</span></a>
+            <a href="#" class="fa-solid fa-pen-to-square"><span class="font"> Edit Transcript</span></a>
+            <a href="#" class="fa-solid fa-search"><span class="font"> Search</span></a>
+        </nav>
     </div>
 
-    <div class = "recordsidesec">
+    <div style="padding-top: 50px; text-align: center">
+        <audio id="audioPlayback" controls></audio>
+        <br>
         <button id="recordButton" type="button" class = "recorder">Record</button>
-
+    </div>
+    <div>
+        <hr style="width:40%;margin-top: 500px;margin-left: 10%;"/>
     </div>
 
-    <hr width = "100%" size = "1"/>
-
+    <script src="script.js"></script>
 </body>
 </html>

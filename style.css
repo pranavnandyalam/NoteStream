@@ -6,22 +6,23 @@ nav {
     display: block;
 }
 .recordsidesec {
-
+    top: 60%;
 }
 .recorder {
     color: cornflowerblue;
     padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    margin-top: 20px;
     font-size: 16px;
-    top: 50px;
-    left: 210px;
     cursor: pointer;
-    position: fixed;
-    border-radius: 5%;
+    border-radius: 5px;
     background-color: transparent;
     border: 2px solid cornflowerblue;
+    display: inline-block;
+}
+.recorder:hover {
+    transition-duration: 0.2s;
+    background-color: cornflowerblue;
+    color: white
 }
 .record-button {
     margin-right: 10px !important;
@@ -29,6 +30,7 @@ nav {
     color: #000000;
     padding: 6px 8px 30px 8px !important;
     text-align: center;
+    display: block;
 }
 
 .record-button:hover {
@@ -45,7 +47,7 @@ nav {
 
 .sidenav {
     height: 100%;
-    width: 200px;
+    width: 12%;
     position: fixed;
     z-index: 1;
     top: 0;
